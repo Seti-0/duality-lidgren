@@ -8,8 +8,8 @@
     <ProjectGuid>{AFE883F3-72B4-4C7C-A1D1-44EDC09C8F6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Duality_</RootNamespace>
-    <AssemblyName>GamePlugin.core</AssemblyName>
+    <RootNamespace>Soulstone.Duality.Plugins.LidgrenNetworker</RootNamespace>
+    <AssemblyName>LidgrenNetworker.core</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -47,6 +47,9 @@
     </Reference>
     <Reference Include="Lidgren.Network, Version=2012.1.7.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Lidgren.Network.1.0.2\lib\net451\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="SoulstoneUtility.core">
+      <HintPath>..\..\..\Plugins\SoulstoneUtility.core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
