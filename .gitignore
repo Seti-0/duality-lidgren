@@ -14,6 +14,7 @@
 
 # Visual Studio
 .vs/
+!packages.config
 
 # Source
 Packages/
@@ -36,3 +37,12 @@ bin/
 !VistaBridgeLibrary.dll
 !Windows7.DesktopIntegration.dll
 
+# Soulstone specific
+!SoulstoneUtility.core.dll
+!SoulstoneUtility.core.pdb
+!SoulstoneSerialization.editor.dll
+!SoulstoneSerialization.editor.pdb
+
+# Project specific
+!Lidgren.Network.dll
+!Lidgren.Network.pdb
