@@ -54,8 +54,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Networker.cs" />
     <Compile Include="CorePlugin.cs" />
-    <Compile Include="YourCustomComponentType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
